@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="rockchip"
-           fetch="ssh://git@github.com/aosp-rockchip/"
+           fetch="https://github.com/pitatensai/aosp-rockchip/"
            revision="refs/heads/quartz64"
            sync-j="8" />
 
   <remote  name="rk-aosp"
-           fetch="ssh://git@github.com/aosp-rockchip/"
+           fetch="https://github.com/pitatensai/aosp-rockchip/"
            revision="refs/heads/r-11.0"
            sync-j="8" />
 
