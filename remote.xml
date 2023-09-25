@@ -11,6 +11,11 @@
            revision="refs/heads/r-11.0"
            sync-j="8" />
 
+  <remote  name="lubancat-aosp"
+           fetch="https://github.com/pitatensai/"
+           revision="refs/heads/r-11.0_lubancat"
+           sync-j="8" />
+
   <remote  name="github"
            fetch="https://github.com/"
            sync-c="true"

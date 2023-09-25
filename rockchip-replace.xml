@@ -28,7 +28,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="rk-aosp"/>
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="rk-aosp"/>
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="rk-aosp"/>
-  <project path="kernel/configs" name="android_kernel_configs" remote="rk-aosp" >
+  <!-- <project path="kernel/configs" name="android_kernel_configs" remote="rk-aosp" >
     <linkfile src="rockchip/android-11.config" dest="kernel/kernel/configs/android-11.config" />
     <linkfile src="rockchip/android-11-go.config" dest="kernel/kernel/configs/android-11-go.config" />
     <linkfile src="rockchip/rk3326.config" dest="kernel/kernel/configs/rk3326.config" />
@@ -37,7 +37,7 @@
     <linkfile src="rockchip/rk356x_eink.config" dest="kernel/kernel/configs/rk356x_eink.config" />
     <linkfile src="rockchip/rk3399.config" dest="kernel/kernel/configs/rk3399.config" />
     <linkfile src="r/android-4.19/non_debuggable.config" dest="kernel/kernel/configs/non_debuggable.config" />
-  </project>
+  </project> -->
   <project path="external/libdrm" name="android_external_libdrm" remote="rk-aosp" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="rk-aosp" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="rk-aosp" />

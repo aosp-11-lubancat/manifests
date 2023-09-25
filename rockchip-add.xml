@@ -2,13 +2,13 @@
 <manifest>
   <project path="RKDocs/common" name="android_RKDocs_common" remote="rockchip"/>
   <project path="RKDocs/android" name="android_RKDocs_android" remote="rockchip"/>
-  <project path="RKTools" name="android_RKTools" remote="rockchip"/>
+  <project path="RKTools" name="android_RKTools" remote="lubancat-aosp"/>
   <project path="hardware/rockchip/helper" name="android_hardware_rockchip_helper" remote="rockchip" />
   <project path="hardware/rockchip/hwcomposer/einkhwc" name="android_hardware_rockchip_hwcomposer_einkhwc" remote="rockchip" />
   <project path="hardware/rockchip/libgraphicpolicy" name="android_hardware_rockchip_libgraphicpolicy" remote="rockchip" />
   <project path="hardware/rockchip/libhwjpeg" name="android_hardware_rockchip_libhwjpeg" remote="rockchip"/>
-  <project path="u-boot" name="android_u-boot" remote="rockchip"/>
-  <project path="kernel" name="android_kernel_rockchip_rk356x" remote="rockchip"/>
+  <project path="u-boot" name="android_u-boot" remote="lubancat-aosp"/>
+  <project path="kernel" name="android_kernel_rockchip_rk356x" remote="lubancat-aosp"/>
 
   <project path="bootable/recovery/rkupdate" name="android_bootable_recovery_rkupdate" remote="rockchip"/>
   <project path="bootable/recovery/rkutility" name="android_bootable_recovery_rkutility" remote="rockchip"/>
@@ -18,13 +18,15 @@
   <project path="external/io" name="android_external_io" remote="rockchip"/>
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="rockchip" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="rockchip"/>
-  <project path="device/rockchip/common" name="android_device_rockchip_common" remote="rk-aosp">
+  <project path="device/rockchip/common" name="android_device_rockchip_common" remote="lubancat-aosp">
       <copyfile src=".classpath" dest=".classpath"/>
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
       <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
+      <copyfile src="external/minijail/gen_constants.sh" dest="external/minijail/gen_constants.sh"/>
   </project>
+  <project path="device/rockchip/rk356x" name="android_device_rockchip_rk356x" remote="lubancat-aosp">
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="rockchip"/>
   <project path="hardware/rockchip/libiep" name="android_hardware_rockchip_libiep" remote="rockchip" />
   <project path="hardware/rockchip/librga" name="android_hardware_rockchip_librga" remote="rk-aosp" />
@@ -39,6 +41,10 @@
   <project path="hardware/rockchip/swiftshader" name="android_hardware_rockchip_swiftshader" remote="rockchip" />
   <project path="hardware/rockchip/keymaster4" name="android_hardware_rockchip_keymaster4" remote="rockchip" />
   <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rockchip" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-unknown-linux-gnueabihf" name="gcc-8.3.0-arm-unknown-linux-gnueabihf" remote="lubancat-aosp" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-unknown-linux-gnu" name="gcc-8.3.0-aarch64-unknown-linux-gnu" remote="lubancat-aosp" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/macos" name="gcc_darwin-x86_aarch64_include" remote="lubancat-aosp" />
+  <project path="prebuilts/gcc/darwin-x86/arm/macos" name="gcc_darwin-x86_arm_include" remote="lubancat-aosp" />
   <project path="rkbin" name="android_rkbin" remote="rockchip"/>
   <project path="hardware/rockchip/librkvpu" name="android_hardware_rockchip_librkvpu" remote="rockchip"/>
   <project path="hardware/rockchip/omx_il" name="android_hardware_rockchip_omx_il" remote="rockchip"/>

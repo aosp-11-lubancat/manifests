@@ -10,7 +10,7 @@
     <remove-project name="platform/system/linkerconfig" />
 
     <!-- Checkout For Rockchip Branch -->
-    <remove-project name="kernel/configs"/>
+    <!-- <remove-project name="kernel/configs"/> -->
     <remove-project name="platform/bionic" />
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
@@ -119,4 +119,6 @@
     <remove-project name="platform/packages/apps/Car/SystemUpdater"/>
     <remove-project name="platform/packages/apps/Car/tests"/>
     <remove-project name="platform/packages/apps/CarrierConfig"/>
+
+    <remove-project name="device/generic/opengl-transport" />
 </manifest>
