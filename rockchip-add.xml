@@ -26,7 +26,7 @@
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
       <copyfile src="external/minijail/gen_constants.sh" dest="external/minijail/gen_constants.sh"/>
   </project>
-  <project path="device/rockchip/rk356x" name="android_device_rockchip_rk356x" remote="lubancat-aosp">
+  <project path="device/rockchip/rk356x" name="android_device_rockchip_rk356x" remote="lubancat-aosp"/>
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="rockchip"/>
   <project path="hardware/rockchip/libiep" name="android_hardware_rockchip_libiep" remote="rockchip" />
   <project path="hardware/rockchip/librga" name="android_hardware_rockchip_librga" remote="rk-aosp" />
