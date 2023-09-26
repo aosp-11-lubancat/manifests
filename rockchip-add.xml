@@ -8,7 +8,7 @@
   <project path="hardware/rockchip/libgraphicpolicy" name="android_hardware_rockchip_libgraphicpolicy" remote="rockchip" />
   <project path="hardware/rockchip/libhwjpeg" name="android_hardware_rockchip_libhwjpeg" remote="rockchip"/>
   <project path="u-boot" name="android_u-boot" remote="lubancat-aosp"/>
-  <project path="kernel" name="android_kernel_rockchip_rk356x" remote="lubancat-aosp"/>
+  <project path="kernel" name="android_kernel_lubancat_rk356x" remote="lubancat-aosp"/>
 
   <project path="bootable/recovery/rkupdate" name="android_bootable_recovery_rkupdate" remote="rockchip"/>
   <project path="bootable/recovery/rkutility" name="android_bootable_recovery_rkutility" remote="rockchip"/>
@@ -60,3 +60,4 @@
   <project path="device/pine64/pinenote" name="android_device_pine64_pinenote" remote="rk-aosp" />
   <project path="device/pine64/pinenote-kernel" name="android_device_pine64_pinenote-kernel" remote="rk-aosp" />
 </manifest>
+
