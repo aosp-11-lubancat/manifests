@@ -4,7 +4,7 @@
   <project path="RKDocs/android" name="android_RKDocs_android" remote="rockchip"/>
   <project path="RKTools" name="android_RKTools" remote="lubancat-aosp"/>
   <project path="hardware/rockchip/helper" name="android_hardware_rockchip_helper" remote="rockchip" />
-  <project path="hardware/rockchip/hwcomposer/einkhwc" name="android_hardware_rockchip_hwcomposer_einkhwc" remote="rockchip" />
+  <project path="hardware/rockchip/hwcomposer" name="android_hardware_rockchip_hwcomposer" remote="rockchip" />
   <project path="hardware/rockchip/libgraphicpolicy" name="android_hardware_rockchip_libgraphicpolicy" remote="rockchip" />
   <project path="hardware/rockchip/libhwjpeg" name="android_hardware_rockchip_libhwjpeg" remote="rockchip"/>
   <project path="u-boot" name="android_u-boot" remote="lubancat-aosp"/>
