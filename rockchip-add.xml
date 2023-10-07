@@ -38,6 +38,9 @@
   <project path="hardware/rockchip" name="android_hardware_rockchip" remote="rk-aosp" />
   <project path="mkcombinedroot" name="android_mkcombinedroot" remote="rockchip" />
 
+   <project path="external/abc" name="android_external_abc" remote="rockchip" />
+  <project path="external/rkaiq_tool_server" name="android_external_rkaiq_tool_server" remote="rockchip" />
+
   <!-- PineNote -->
   <project path="device/pine64/pinenote" name="android_device_pine64_pinenote" remote="rk-aosp" />
   <project path="device/pine64/pinenote-kernel" name="android_device_pine64_pinenote-kernel" remote="rk-aosp" />
