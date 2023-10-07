@@ -122,4 +122,5 @@
 
     <remove-project name="device/generic/opengl-transport" />
     <remove-project name="platform/external/e2fsprogs" />
+    <remove-project name="platform/external/iperf3" />
 </manifest>
