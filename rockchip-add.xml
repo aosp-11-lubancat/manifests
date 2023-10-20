@@ -24,12 +24,13 @@
   </project>
   <project path="device/rockchip/rk356x" name="android_device_rockchip_rk356x" remote="lubancat-aosp"/>
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="rockchip"/>
-  <project path="external/rk_tee_user" name="android_external_rk_tee_user" remote="rockchip" />
+  <project path="external/rk_tee_user" name="android_external_rk_tee_user" remote="rk-aosp" />
   <project path="rkst" name="android_rkst" remote="rockchip"/>
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="rockchip"/>
   <project path="vendor/rockchip/hardware" name="android_vendor_rockchip_hardware" remote="rockchip"/>
   <project path="vendor/widevine" name="android_vendor_widevine" remote="rockchip"/>
   <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rockchip" />
+   <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rockchip" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-unknown-linux-gnueabihf" name="gcc-8.3.0-arm-unknown-linux-gnueabihf" remote="lubancat-aosp" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-unknown-linux-gnu" name="gcc-8.3.0-aarch64-unknown-linux-gnu" remote="lubancat-aosp" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/macos" name="gcc_darwin-x86_aarch64_include" remote="lubancat-aosp" />
@@ -38,11 +39,17 @@
   <project path="hardware/rockchip" name="android_hardware_rockchip" remote="rk-aosp" />
   <project path="mkcombinedroot" name="android_mkcombinedroot" remote="rockchip" />
 
-   <project path="external/abc" name="android_external_abc" remote="rockchip" />
+  <project path="external/abc" name="android_external_abc" remote="rockchip" />
   <project path="external/rkaiq_tool_server" name="android_external_rkaiq_tool_server" remote="rockchip" />
+  <project path="external/camera_engine_rkaiq" name="android_external_camera_engine_rkaiq" remote="rockchip" />
+
+   <project path="system/tools/release_tools" name="android_system_tools_release_tools" remote="rockchip" />
 
   <!-- PineNote -->
   <project path="device/pine64/pinenote" name="android_device_pine64_pinenote" remote="rk-aosp" />
   <project path="device/pine64/pinenote-kernel" name="android_device_pine64_pinenote-kernel" remote="rk-aosp" />
+
+  <project path="packages/apps/DisplayAdjust" name="android_packages_apps_DisplayAdjust" remote="rk-aosp" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rk-aosp" />
 </manifest>
 
