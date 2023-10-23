@@ -61,5 +61,5 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="rk-aosp" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="rk-aosp" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="rk-aosp" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" groups="pdk-fs"  />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" groups="pdk-fs"  remote="rk-aosp" />
 </manifest>
